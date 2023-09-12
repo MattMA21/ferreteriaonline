@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: rgb(0, 96, 57);
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo a {
+    background: #c59400;
+
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #c59400;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background-size: cover;
+    background: url(../img/portada2.jpg) no-repeat center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(153, 35, 35);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: black;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(20, 172, 121);
+    color: white;
+    text-decoration: none;
+    background: rgb(0, 96, 57);
+
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin-top: 15px;
+    padding: 10px 40px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(0, 96, 57);
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 400px;
+    background: wheat;
+
+
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+
+}
+
+
+
+.box-container .box {
+    height: 20rem;
+    width: 23rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 3rem rgb(235, 235, 248);
+    margin: 4rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: brown;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 30px;
+    color: brown;
+}
+
+.box-container .box p {
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.about {
+    background: wheat;
+    padding: 100px;
+
+}
+
+.price {
+    background: url(../img/fixed/cosmograph.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 700px;
+}
+
+.contact {
+    padding-top: 100px;
+    background: wheat;
+    padding: 100px;
+
+}
+
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.fa-brands {
+    display: block;
+    padding: 20px;
+    color: rgb(0, 96, 57);
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+
+
+@media (max-width: 760px) {
+
+    .title {
+        margin-bottom: 0;
+
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
